@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/zuntes/sv_bot_ws/src/msgs/people_msgs/include/**",
+        "/home/zuntes/sv_bot_ws/src/robot_localization/include/**",
+        "/home/zuntes/sv_bot_ws/src/robot_nav2/include/**",
+        "/home/zuntes/sv_bot_ws/src/robot_slam/include/**",
+        "/home/zuntes/sv_bot_ws/src/social_layer/nav2_social_costmap_plugin/include/**",
+        "/home/zuntes/sv_bot_ws/src/social_layer/social_layer_plugin/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
